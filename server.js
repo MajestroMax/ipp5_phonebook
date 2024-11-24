@@ -7,7 +7,7 @@ const app = express();
 const PORT = process.env.PORT;
 
 // Подключение к MongoDB Atlas
-mongoose.connect('mongodb+srv://maxqwerty177:8UrFzLcXUHWds7Vh@cluster0.hqdp9.mongodb.net/?retryWrites=true&w=majority&appName=Cluster0'', {
+mongoose.connect('mongodb+srv://maxqwerty177:8UrFzLcXUHWds7Vh@cluster0.hqdp9.mongodb.net/?retryWrites=true&w=majority&appName=Cluster0', {
     useNewUrlParser: true,
     useUnifiedTopology: true
 });
