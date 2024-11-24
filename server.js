@@ -4,7 +4,7 @@ const bodyParser = require('body-parser');
 const contactsRouter = require('./routes/contacts');
 
 const app = express();
-const PORT = process.env.PORT;
+const PORT = process.env.PORT || 3000;
 
 // Подключение к MongoDB Atlas
 mongoose.connect('mongodb+srv://maxqwerty177:8UrFzLcXUHWds7Vh@cluster0.hqdp9.mongodb.net/?retryWrites=true&w=majority&appName=Cluster0', {
