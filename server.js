@@ -7,7 +7,7 @@ const app = express();
 const PORT = process.env.PORT || 3000;
 
 // Подключение к MongoDB
-mongoose.connect('mongodb://localhost:27017/phonebook', { useNewUrlParser: true, useUnifiedTopology: true });
+mongoose.connect('mongodb+srv://maxqwerty177:8UrFzLcXUHWds7Vh@cluster0.hqdp9.mongodb.net/?retryWrites=true&w=majority&appName=Cluster0', { useNewUrlParser: true, useUnifiedTopology: true });
 
 // Middleware
 app.use(bodyParser.json());
